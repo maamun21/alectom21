@@ -1,0 +1,93 @@
+p{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+}
+.carousel-indicators .active{
+	background-color: #fff !important;
+}
+
+.carousel-indicators li{
+	width: 8px !important;
+	height: 8px;
+	border-radius: 50%;
+	margin-right: 10px;
+	opacity: .8 !important;
+	
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+	max-width: 960px;
+}
+.header-area {
+	background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), url('../img/modern.gif');
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 200px;
+}
+.stories{
+	background-color: #fbfbfb;
+	padding-bottom:40px;
+}
+.services .hover{
+	position: relative;
+}
+
+.services .bg-hover{
+	background-color: #333333;
+	height: 290px;
+	width: 290px;
+	position: absolute;
+	top: 48px;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.services .bg-hover p{
+	font-size: 40px;
+	color: #fa694e;
+	text-align: center;
+	line-height: 300px;
+}
+
+.services .hover:hover .bg-hover{
+	opacity: 1;
+}
+.icon .hover:hover{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.services .bg-hover{
+		
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.services .bg-hover{
+		
+	}
+
+	.services .bg-hover p{
+		
+	}
+}
